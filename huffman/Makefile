@@ -1,7 +1,7 @@
 CXX?=g++
 CXXFLAGS=-O1
 
-EXEC=CODEC
+EXEC=huffman
 
 INCLUDEDIR=include
 SRCDIR=src
