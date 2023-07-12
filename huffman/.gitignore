@@ -1,4 +1,4 @@
-CODEC
+hufman
 
 *.txt
 !input.txt

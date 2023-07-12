@@ -1,5 +1,5 @@
 CXX?=g++
-CXXFLAGS=-O1
+CXXFLAGS=-Og -g
 
 EXEC=huffman
 
@@ -17,7 +17,7 @@ $(EXEC): $(OBJS)
 	$(CXX) $(CXXFLAGS) $(INCLUDES) $(OBJS) -o $(EXEC)
 
 %.o: %.cpp
-	$(CXX) $(CXXFLAGS) -c $< -o $@
+	$(CXX) $(CXXFLAGS)-c $< -o $@
 
 clean:
 	rm -f $(EXEC)
