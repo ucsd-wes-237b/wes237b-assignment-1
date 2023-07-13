@@ -10,7 +10,12 @@
             "cwd": ".",
             "name": "Launch Program",
             "program": "${workspaceRoot}/huffman",
-            "preLaunchTask": "Make"
+            "preLaunchTask": "Make",
+            "args": [
+                "input.txt",
+                "code.txt",
+                "output.txt"
+            ]
         }
     ]
 }
